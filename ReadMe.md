@@ -35,3 +35,13 @@ Sample Input:
   "invoice_month": 7,
   "days_to_due": 45
 }
+## Screenshots
+
+### Postman Request
+![Postman Request](screenshots/postman_request.png)
+
+### Postman Response
+![Postman Response](screenshots/postman_response.png)
+
+### Server Running
+![Server](screenshots/server_running.png)
