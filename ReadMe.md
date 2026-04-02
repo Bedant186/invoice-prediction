@@ -38,11 +38,11 @@ Sample Input:
 ```
 ## Screenshots
 
-### Postman Request
-![Postman Request](screenshots/postman_request.png)
+### Postman Response 1
+![Postman Response 1](Screenshots/postman_response_1.png)
 
-### Postman Response
-![Postman Response](screenshots/postman_response.png)
+### Postman Response 2
+![Postman Response 2](Screenshots/postman_response_2.png)
 
 ### Server Running
-![Server](screenshots/server_running.png)
+![Server Running](Screenshots/server_running.png)
