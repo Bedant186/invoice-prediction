@@ -1,30 +1,37 @@
-# AI-Powered Invoice & Payment Delay Prediction System
+# AI-Powered Invoice Payment Delay Prediction System
 
 ## Overview
-This project predicts whether an invoice is likely to be paid late using machine learning.
+This project predicts whether an invoice will be paid late using machine learning. It simulates real-world financial workflows such as invoice risk analysis and payment prediction.
+
+## Features
+- Machine learning model for late payment prediction
+- REST API using Flask
+- Risk categorization (Low / Medium / High)
+- Real-time prediction using JSON input
 
 ## Tech Stack
 - Python
 - Flask
-- Pandas
+- Pandas, NumPy
 - Scikit-learn
+- Postman
 
-## Features
-- Train ML model on invoice data
-- Predict payment delay using REST API
-- Return probability and risk category
+## How it Works
+1. Invoice data is processed using Pandas
+2. Model predicts whether payment will be late
+3. API returns prediction, probability, and risk level
 
-## Dataset Columns
-- invoice_amount
-- payment_terms
-- customer_score
-- previous_delay_avg
-- invoice_month
-- days_to_due
-- late_payment
+## API Endpoint
 
-## How to Run
+POST /predict
 
-### 1. Create virtual environment
-```bash
-python -m venv venv
+Sample Input:
+```json
+{
+  "invoice_amount": 55000,
+  "payment_terms": 45,
+  "customer_score": 58,
+  "previous_delay_avg": 16,
+  "invoice_month": 7,
+  "days_to_due": 45
+}
