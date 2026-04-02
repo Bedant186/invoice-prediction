@@ -39,7 +39,7 @@ Sample Input:
 ## Screenshots
 
 ### Postman Response 1
-![Postman Response 1](Screenshots/postman_request&response1.png.png)
+![Postman Response 1](Screenshots/postman_request&response1.png)
 
 ### Postman Response 2
 ![Postman Response 2](Screenshots/postman_request&response2.png)
