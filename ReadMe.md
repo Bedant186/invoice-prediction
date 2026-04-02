@@ -35,6 +35,7 @@ Sample Input:
   "invoice_month": 7,
   "days_to_due": 45
 }
+```
 ## Screenshots
 
 ### Postman Request
